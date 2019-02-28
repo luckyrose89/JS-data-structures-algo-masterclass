@@ -6,6 +6,8 @@ function addUpToSlower(n){
     return total;
 }
 
+// the number of operations is eventually bounded by n that means O(n)
+
 const t1 = performance.now();
 addUpToSlower(1000000000);
 const t2 = performance.now();
